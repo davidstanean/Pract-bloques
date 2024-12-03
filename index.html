@@ -1,0 +1,32 @@
+
+<!-- Desarollado por David Stanean el 17/10/2024 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+  
+<h1 class="azul">Practica bloque 3</h1>
+
+
+<script>
+
+
+function funcion_apellido() {
+ 
+var nom = document.getElementById ("name").value;
+var apellido = document.getElementById("apellido").value;
+  alert ('bienvenido ' + nom  + ' ' + apellido)
+}
+
+
+</script>
+</head>
+
+<body>
+
+Introduce nombre: <input type="text" id="name">
+Introduce apellido: <input type="text" id="apellido" onchange="funcion_apellido()">
+
+</body>
+</html>
